@@ -1,7 +1,6 @@
 package com.objects.weapons;
 
-public class Bow{
-
+public class SpellBook {
     public String hitpoints;
     public String damage;
     public String magicPoints;
@@ -9,7 +8,7 @@ public class Bow{
     public String health;
     public String agility;
 
-    public Bow(String hitpoints, String damage, String magicPoints, String magicDamage, String health, String agility) {
+    public SpellBook(String hitpoints, String damage, String magicPoints, String magicDamage, String health, String agility) {
         this.hitpoints = hitpoints;
         this.damage = damage;
         this.magicPoints = magicPoints;
@@ -18,7 +17,7 @@ public class Bow{
         this.agility = agility;
     }
 
-    public Bow() {
+    public SpellBook() {
     }
 
     public String getHitpoints() {

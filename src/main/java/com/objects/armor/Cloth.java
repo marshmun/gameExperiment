@@ -1,4 +1,4 @@
-
+package com.objects.armor;
 
 public class Cloth{
 

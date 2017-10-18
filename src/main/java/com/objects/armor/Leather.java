@@ -1,6 +1,7 @@
-
+package com.objects.armor;
 
 public class Leather{
+
     public String armorPoints;
     public String agilityPoints;
     public String stengthPoints;

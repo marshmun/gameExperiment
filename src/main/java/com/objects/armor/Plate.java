@@ -1,3 +1,4 @@
+package com.objects.armor;
 
 public class Plate{
     public String armorPoints;

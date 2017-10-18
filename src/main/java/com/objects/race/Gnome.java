@@ -1,7 +1,6 @@
-package com.objects.Race;
+package com.objects.race;
 
-public class Human{
-
+public class Gnome{
     public String hitpoints;
     public String magicPoints;
     public String strength;
@@ -9,7 +8,7 @@ public class Human{
     public String trait;
     public String agility;
 
-    public Human(String hitpoints, String magicPoints, String strength, String magicStrength, String trait, String agility) {
+    public Gnome(String hitpoints, String magicPoints, String strength, String magicStrength, String trait, String agility) {
         this.hitpoints = hitpoints;
         this.magicPoints = magicPoints;
         this.strength = strength;
@@ -18,7 +17,7 @@ public class Human{
         this.agility = agility;
     }
 
-    public Human() {
+    public Gnome() {
     }
 
     public String getHitpoints() {

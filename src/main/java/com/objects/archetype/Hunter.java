@@ -14,7 +14,7 @@ public class Hunter{
         return strength;
     }
 
-    public void setStrength(String strength) {
+    public void setStrength(String s) {
         this.strength = strength;
     }
 

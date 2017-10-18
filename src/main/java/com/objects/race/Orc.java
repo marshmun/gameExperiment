@@ -1,6 +1,8 @@
-package com.objects.Race;
+package com.objects.race;
 
-public class Gnome{
+public class Orc{
+
+
     public String hitpoints;
     public String magicPoints;
     public String strength;
@@ -8,7 +10,7 @@ public class Gnome{
     public String trait;
     public String agility;
 
-    public Gnome(String hitpoints, String magicPoints, String strength, String magicStrength, String trait, String agility) {
+    public Orc(String hitpoints, String magicPoints, String strength, String magicStrength, String trait, String agility) {
         this.hitpoints = hitpoints;
         this.magicPoints = magicPoints;
         this.strength = strength;
@@ -17,7 +19,7 @@ public class Gnome{
         this.agility = agility;
     }
 
-    public Gnome() {
+    public Orc() {
     }
 
     public String getHitpoints() {

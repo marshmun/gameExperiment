@@ -1,6 +1,6 @@
-package com.objects.Race;
+package com.objects.race;
 
-public class Elf{
+public class Human{
 
     public String hitpoints;
     public String magicPoints;
@@ -9,7 +9,7 @@ public class Elf{
     public String trait;
     public String agility;
 
-    public Elf(String hitpoints, String magicPoints, String strength, String magicStrength, String trait, String agility) {
+    public Human(String hitpoints, String magicPoints, String strength, String magicStrength, String trait, String agility) {
         this.hitpoints = hitpoints;
         this.magicPoints = magicPoints;
         this.strength = strength;
@@ -18,7 +18,7 @@ public class Elf{
         this.agility = agility;
     }
 
-    public Elf() {
+    public Human() {
     }
 
     public String getHitpoints() {

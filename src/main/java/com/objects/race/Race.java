@@ -1,4 +1,4 @@
-package com.objects.Race;
+package com.objects.race;
 
 public class Race {
 

@@ -1,7 +1,7 @@
 package com.objects.player;
 import com.objects.archetype.Archetype;
 import com.objects.armor.Armor;
-import com.objects.Race.Race;
+import com.objects.race.Race;
 import com.objects.weapons.Weapon;
 
 public class Player {
